@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "ZentroxDj Music Pack",
+    "price": "0.1",
+    "description": "Obtenha o pacote de musicas exclusivas do DJ Zentrox",
+    "image_url": "https://i.imgur.com/hme2bu9.jpg",
+    "filename": "ZentroxDJ.zip",
+    "hash": "QmYQ9ovwgwsddxkqNTLbFtq8HJM8EjqyF3z1wHKw4Z1re3"
+  },
+  {
+    "id": 2,
+    "name": "ZentroxDj Image Deisgn",
+    "price": "1",
+    "image_url": "https://i.imgur.com/hme2bu9.jpg",
+    "description": "Singular image from DjZentrox"
+  }
+]
