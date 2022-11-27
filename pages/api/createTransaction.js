@@ -5,7 +5,8 @@ import BigNumber from "bignumber.js";
 import products from "./products.json";
 
 const usdcAddress = new PublicKey("Gh9ZwEmdLJ8DscKNTkTqPbNwLNNBjuSzaG9Vp2KGtKJr");
-const sellerAddress = "87RexhZcPmtbXgMK79PsahGfGLFbSoBqUYQQyqgw32zh87RexhZcPmtbXgMK79PsahGfGLFbSoBqUYQQyqgw32zh";
+const sellerAddress 
+="87RexhZcPmtbXgMK79PsahGfGLFbSoBqUYQQyqgw32zh";
 const sellerPublicKey = new PublicKey(sellerAddress);
 
 const createTransaction = async (req, res) => {

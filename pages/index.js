@@ -7,7 +7,7 @@ import { useWallet } from "@solana/wallet-adapter-react";
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 
 // Constantes
-const TWITTER_HANDLE = "_buildspace";
+const TWITTER_HANDLE = "vitordeveth";
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
  
   const renderNotConnectedContainer = () => (
     <div>
-      <img src="https://media.giphy.com/media/eSwGh3YK54JKU/giphy.gif" alt="emoji" />
+      <img src="https://i.giphy.com/media/aSxvq2jEInSdW/giphy.webp" alt="emoji" />
 
       <div className="button-container">
         <WalletMultiButton className="cta-button connect-wallet-button" />
@@ -50,8 +50,8 @@ const App = () => {
       <HeadComponent/>
       <div className="container">
         <header className="header-container">
-          <p className="header"> 😳 Loja de emojis do Buildspace 😈</p>
-          <p className="sub-text">A única loja de emojis que aceita shitcoins</p>
+          <p className="header"> Hitech Music Blockchain Store🎵</p>
+          <p className="sub-text">Hitech Music store that accepts sh*tcoins</p>
 
           {isOwner && (
             <button className="create-product-button" onClick={() => setCreating(!creating)}>
@@ -72,7 +72,7 @@ const App = () => {
             href={TWITTER_LINK}
             target="_blank"
             rel="noreferrer"
-          >{`built on @${TWITTER_HANDLE}`}</a>
+          >{`Made by @${TWITTER_HANDLE}`}</a>
         </div>
       </div>
     </div>
